@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
+const queries = require('./queries')
 
 app.get('/', (req, res) => {
-    res.send('the route worked!')
+    queries.listAll().then(drills => res.send(drills))
 })
 
 app.listen(port, console.log(`listening on ${port}!`));
