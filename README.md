@@ -1,6 +1,6 @@
 # Stripes - Jiu Jitsu Training 
 ## Technologies
-Node.js, Express.js, Knex.js
+Node.js, Express.js, Knex.js, PostgreSQL, Bcryptjs
 
 ## How to install and run
 npm install
