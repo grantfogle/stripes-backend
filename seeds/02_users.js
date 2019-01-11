@@ -43,7 +43,7 @@ exports.seed = function (knex, Promise) {
           first_name: 'Jamie',
           last_name: 'Juniper',
           password: 'password',
-          belt_level: 'purple',
+          belt_level: 'purple'
         }
       ]);
     });

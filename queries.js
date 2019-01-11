@@ -4,6 +4,9 @@ module.exports = {
     listAll() {
         return database('drills');
     },
+    getAllUsers() {
+        return database('users');
+    },
     getById(id) {
         return database('drills').where('id', id);
     },
@@ -23,8 +26,7 @@ module.exports = {
     createUser(newUser) {
         return database('users').insert(newUser).returning('*');
     },
-    getUser(id) {
-        return database('users')
-            .where('id', id);
+    getUser(username) {
+        return database('users').where('user_name', username);
     }
 }
