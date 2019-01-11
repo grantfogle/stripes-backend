@@ -7,7 +7,7 @@ exports.seed = function (knex, Promise) {
       return knex('drills').insert([
         {
           name: 'Triangle Choke',
-          skill_level: 'White',
+          skill_level: 'white',
           type: 'Submission',
           solo: false,
           reps: 10,
@@ -15,7 +15,7 @@ exports.seed = function (knex, Promise) {
         },
         {
           name: 'Armbar',
-          skill_level: 'White',
+          skill_level: 'white',
           type: 'Submission',
           solo: false,
           reps: 10,
@@ -23,7 +23,7 @@ exports.seed = function (knex, Promise) {
         },
         {
           name: 'Rear Naked Choke',
-          skill_level: 'White',
+          skill_level: 'white',
           type: 'Submission',
           solo: false,
           reps: 10,
@@ -31,7 +31,7 @@ exports.seed = function (knex, Promise) {
         },
         {
           name: 'Americana',
-          skill_level: 'White',
+          skill_level: 'white',
           type: 'Submission',
           solo: false,
           reps: 10,
@@ -39,7 +39,7 @@ exports.seed = function (knex, Promise) {
         },
         {
           name: 'Kimura',
-          skill_level: 'White',
+          skill_level: 'white',
           type: 'Submission',
           solo: false,
           reps: 10,
@@ -47,7 +47,7 @@ exports.seed = function (knex, Promise) {
         },
         {
           name: 'Cross Collar',
-          skill_level: 'White',
+          skill_level: 'white',
           type: 'Submission',
           solo: false,
           reps: 10,
@@ -55,7 +55,7 @@ exports.seed = function (knex, Promise) {
         },
         {
           name: 'Arm Triangle',
-          skill_level: 'White',
+          skill_level: 'white',
           type: 'Submission',
           solo: false,
           reps: 10,
@@ -63,7 +63,7 @@ exports.seed = function (knex, Promise) {
         },
         {
           name: 'Pendulum Sweep',
-          skill_level: 'White',
+          skill_level: 'white',
           type: 'Sweep/Escape',
           solo: false,
           reps: 10,
@@ -71,7 +71,7 @@ exports.seed = function (knex, Promise) {
         },
         {
           name: 'Side Control Escape',
-          skill_level: 'White',
+          skill_level: 'white',
           type: 'Sweep/Escape',
           solo: false,
           reps: 10,
