@@ -2,13 +2,13 @@ const database = require('./database-connection')
 
 module.exports = {
     listAll() {
-        return database('drills')
+        return database('drills');
     },
     getById(id) {
-        return database('drills').where('id', id)
+        return database('drills').where('id', id);
     },
     createDrill(newDrill) {
-        return database('drills').insert(newDrill).returning('*')
+        return database('drills').insert(newDrill).returning('*');
     },
     deleteDrill(id) {
         return database('drills')
@@ -19,5 +19,12 @@ module.exports = {
         return database('drills')
             .where('id', id)
             .update(drill)
+    },
+    createUser(newUser) {
+        return database('users').insert(newUser).returning('*');
+    },
+    getUser(id) {
+        return database('users')
+            .where('id', id);
     }
 }
