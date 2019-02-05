@@ -78,20 +78,20 @@ exports.seed = function (knex, Promise) {
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
         },
         {
-          name: '',
+          name: 'Side Control Staple',
           skill_level: 'white',
-          type: 'Sweep/Escape/Submission',
+          type: 'Side Control',
           solo: false,
           reps: 10,
-          description: ''
+          description: 'Staple legs with your leg, move to other side.'
         },
         {
-          name: '',
+          name: 'Side Control Hop Over',
           skill_level: 'white',
-          type: 'Sweep/Escape/Submission',
+          type: 'Side Control',
           solo: false,
           reps: 10,
-          description: ''
+          description: 'Move from side control to other side.'
         },
         {
           name: 'Knee On Belly',
@@ -100,6 +100,22 @@ exports.seed = function (knex, Promise) {
           solo: false,
           reps: 10,
           description: 'Move from side control, to knee on belly to other side control.'
+        },
+        {
+          name: 'Shrimps',
+          skill_level: 'white',
+          type: 'Escape',
+          solo: false,
+          reps: 10,
+          description: 'Place your foot behind you and pull your hips back. Keep your arm in.'
+        },
+        {
+          name: 'Reverse Kese Gatame',
+          skill_level: 'white',
+          type: 'Side Control',
+          solo: false,
+          reps: 10,
+          description: 'Get reverse kese gatame from side control, take control of arm and move into full mount.'
         },
         {
           name: 'Shrimps',
