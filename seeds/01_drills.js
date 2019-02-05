@@ -76,6 +76,38 @@ exports.seed = function (knex, Promise) {
           solo: false,
           reps: 10,
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        },
+        {
+          name: '',
+          skill_level: 'white',
+          type: 'Sweep/Escape/Submission',
+          solo: false,
+          reps: 10,
+          description: ''
+        },
+        {
+          name: '',
+          skill_level: 'white',
+          type: 'Sweep/Escape/Submission',
+          solo: false,
+          reps: 10,
+          description: ''
+        },
+        {
+          name: 'Knee On Belly',
+          skill_level: 'white',
+          type: 'Side Control',
+          solo: false,
+          reps: 10,
+          description: 'Move from side control, to knee on belly to other side control.'
+        },
+        {
+          name: 'Shrimps',
+          skill_level: 'white',
+          type: 'Escape',
+          solo: false,
+          reps: 10,
+          description: 'Place your foot behind you and pull your hips back. Keep your arm in.'
         }
       ]);
     });
